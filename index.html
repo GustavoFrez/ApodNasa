@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icon_55d60363d2125d03e9e48e7b0e11d7df.ico" />
+    <title>APOD</title>
+</head>
+<body class="bgNasa">
+    <header>
+        <div class="headerLogo">
+            <a href="index.html"><img class="imgLogo" src="img/nasa-logo3.png" alt="Logo Nasa"></a>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <p>APOD é uma rede social da NASA onde você pode ter acesso a um acervo de fotos e vídeos <br>
+                postado diariamente por diversas pessoas do planeta. E aí vamos viajar juntos ?</p>
+            <p>Escolha uma data:</p>    
+        </div>
+        
+        
+        <div class="dataEnviar">
+            <input id="date" type="date" class="data">
+            <button id="botao">Enviar</button>
+        </div>
+        
+        <div class="container">
+    
+            <h1 class="tituloImagem" id="titulo"></h1>
+    
+            <iframe id="video" class=" videoContainer invisivel" src=""></iframe>
+    
+            <img class="imagemContainer invisivel" id="imagem" src="">
+    
+            <p class="legendaImg" id="legenda"></p>
+    
+        </div>
+        
+
+
+    </section>
+   
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
